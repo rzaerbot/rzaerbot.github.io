@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
  <head>
-  <meta charsrt = "utf-8"/>
+  <meta charset = "utf-8"/>
   <title>타이틀표제<title>
 </head>
 <body>
