@@ -10,7 +10,7 @@
  <a href="http://www.data.go.kr">
   여기
  </a>
- 를 클릭하세여!
+  를 클릭하세여!
  </p>
  </body>
 </html>
