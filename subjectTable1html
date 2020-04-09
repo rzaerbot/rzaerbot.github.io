@@ -17,7 +17,7 @@ th,td{width:50px;}
    <tr><td>2교시</td><td>-</td><td>-</td><td>-</td></tr>
    <tr><td>3교시</td><td rowspan="2" class="subject3">디지털논리회로</td><td rowspan="2" class="subject4">자료구조및실습</td><td>-</td><td>오토마타와응용</td><td>-</td></tr>
    <tr><td>4교시</td><td>-</td><td>-</td><td>-</td></tr>
-   <tr><td>5교시</td><td rowspan="2" class="subject5">일본어3</td><td rowspan="2" class="subject3>인터넷응용</td><td>-</td></tr>
+   <tr><td>5교시</td><td rowspan="2" class="subject5">일본어3</td><td></td><td rowspan="2" class="subject3>인터넷응용</td><td>-</td></tr>
    <tr><td>6교시</td><td rowspan="5" class="subject6">c++프로그래밍</td><td>인터넷응용</td><td>-</td></tr>
    <tr><td>7교시</td><td>-</td><td>-</td> <td>-</td><td>-</td></tr>
    <tr><td>8교시</td><td>-</td><td>-</td><td>캠퍼스멘토링</td><td>-</td></tr>
