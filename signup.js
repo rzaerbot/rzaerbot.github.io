@@ -1,30 +1,4 @@
 
-const getToken = () => {
-
-  // 인증확인 버튼 활성화
-  document.getElementById("completion").setAttribute("style","background-color:yellow;")
-  document.getElementById("completion").disabled = false;
-
-  if (processID != -1) clearInterval(processID);
-  const token = String(Math.floor(Math.random() * 1000000)).padStart(6, "0");
-  document.getElementById("certificationNumber").innerText = token;
-  let time = 180;
-  processID = setInterval(function () {
-    if (time < 0 || document.getElementById("sendMessage").disabled) {
-      clearInterval(processID);
-      initButton();
-      return;
-    }
-    let mm = String(Math.floor(time / 60)).padStart(2, "0");
-    let ss = String(time % 60).padStart(2, "0");
-    let result = mm + ":" + ss;
-    document.getElementById("timeLimit").innerText = result;
-    time--;
-  }, 50);
-};
-}
-
-
 // 가입부분 체크
 
 function signUpCheck(){
