@@ -1,33 +1,4 @@
-function changePhone1(){
-    const phone1 = document.getElementById("phone1").value // 010
-    if(phone1.length === 3){
-        document.getElementById("phone2").focus();
-    }
-}
-function changePhone2(){
-    const phone2 = document.getElementById("phone2").value // 010
-    if(phone2.length === 4){
-        document.getElementById("phone3").focus();
-    }
-}
-function changePhone3(){
-    const phone3 = document.getElementById("phone3").value // 010
-    if(phone3.length === 4){
-      document.getElementById("sendMessage").focus();
-      document.getElementById("sendMessage").setAttribute("style","background-color:yellow;")
-      document.getElementById("sendMessage").disabled = false;
-    }
-}
 
-// 문자인증+타이머 부분
-function initButton(){
-  document.getElementById("sendMessage").disabled = true;
-  document.getElementById("completion").disabled = true;
-  document.getElementById("certificationNumber").innerHTML = "000000";
-  document.getElementById("timeLimit").innerHTML = "03:00";
-  document.getElementById("sendMessage").setAttribute("style","background-color:none;")
-  document.getElementById("completion").setAttribute("style","background-color:none;")
-}
 
 let processID = -1;
 
@@ -125,16 +96,7 @@ function signUpCheck(){
   }else{
     //document.getElementById("passwordCheckError").innerHTML=""
   }
-
-
-  // 지역선택 확인
-  if(area === "지역을 선택하세요."){
-    document.getElementById("areaError").innerHTML="지역을 선택해주세요."
-    check = false
-  }else{
-    document.getElementById("areaError").innerHTML=""
-  }
-
+    
   // 성별체크확인
   if(!gender_man && !gender_woman){
     document.getElementById("genderError").innerHTML="성별을 선택해주세요."
@@ -148,7 +110,6 @@ function signUpCheck(){
     document.getElementById("nameError").innerHTML=""
     document.getElementById("passwordError").innerHTML=""
     document.getElementById("passwordCheckError").innerHTML=""
-    document.getElementById("areaError").innerHTML=""
     document.getElementById("genderError").innerHTML=""
     
     //비동기 처리이벤트
