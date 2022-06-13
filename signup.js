@@ -7,7 +7,6 @@ function signUpCheck(){
   let name = document.getElementById("name").value
   let password = document.getElementById("password").value
   let passwordCheck = document.getElementById("passwordCheck").value
-  let area = document.getElementById("area").value
   let gender_man = document.getElementById("gender_man").checked
   let gender_woman = document.getElementById("gender_woman").checked
   let check = true;
