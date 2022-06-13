@@ -22,13 +22,6 @@ const getToken = () => {
     time--;
   }, 50);
 };
-
-function checkCompletion(){
-  alert("문자 인증이 완료되었습니다.")
-  initButton();
-  document.getElementById("completion").innerHTML="인증완료"
-  document.getElementById("signUpButton").disabled = false;
-  document.getElementById("signUpButton").setAttribute("style","background-color:yellow;")
 }
 
 
