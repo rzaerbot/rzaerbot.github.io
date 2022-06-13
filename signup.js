@@ -1,7 +1,4 @@
 
-
-let processID = -1;
-
 const getToken = () => {
 
   // 인증확인 버튼 활성화
